@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='nephelae_master',
       version='0.1',
@@ -7,7 +7,15 @@ setup(name='nephelae_master',
       author='Pierre Narvor',
       author_email='pnarvor@laas.fr',
       licence='bsd2',
-      packages=['nephelae_base', 'nephelae_simulation', 'nephelae_paparazzi'],
+      packages=find_packages(include=['nephelae_base*', 'nephelae_simulation*', 'nephelae_paparazzi*']),
+      install_requires=[
+        'numpy',
+        'scipy',
+        'netCDF4',
+        'utm',
+        'ivy-python',
+        'matplotlib'
+      ],
       zip_safe=False)
 
 
