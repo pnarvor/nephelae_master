@@ -7,3 +7,6 @@
 [submodule "nephelae_paparazzi"]
 	path = nephelae_paparazzi
 	url = ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_paparazzi.git
+[submodule "nephelae_mapping"]
+	path = nephelae_mapping
+	url = ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_mapping.git

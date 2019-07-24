@@ -7,14 +7,15 @@ setup(name='nephelae_master',
       author='Pierre Narvor',
       author_email='pnarvor@laas.fr',
       licence='bsd2',
-      packages=find_packages(include=['nephelae_base*', 'nephelae_simulation*', 'nephelae_paparazzi*']),
+      packages=find_packages(include=['nephelae_base*', 'nephelae_simulation*', 'nephelae_paparazzi*','nephelae_mapping']),
       install_requires=[
         'numpy',
         'scipy',
         'netCDF4',
         'utm',
         'ivy-python',
-        'matplotlib'
+        'matplotlib',
+        'scikit-learn'
       ],
       zip_safe=False)
 
