@@ -15,7 +15,8 @@ setup(name='nephelae_master',
         'utm',
         'ivy-python',
         'matplotlib',
-        'scikit-learn'
+        'scikit-learn',
+        'sh'
       ],
       zip_safe=False)
 
