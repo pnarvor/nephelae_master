@@ -1,0 +1,9 @@
+[submodule "nephelae_base"]
+	path = nephelae_base
+	url = ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_base.git
+[submodule "nephelae_simulation"]
+	path = nephelae_simulation
+	url = ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_simulation.git
+[submodule "nephelae_paparazzi"]
+	path = nephelae_paparazzi
+	url = ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_paparazzi.git
