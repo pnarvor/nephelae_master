@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='nephelae_master',
-      version='0.1',
+      version='0.2',
       description='Metapackage with all modules from LAAS dev for Nephelae project',
       url='ssh://git@redmine.laas.fr/laas/users/simon/nephelae/nephelae-devel/nephelae_master.git',
       author='Pierre Narvor',
